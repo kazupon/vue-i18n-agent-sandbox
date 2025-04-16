@@ -1,5 +1,8 @@
 {
   "message": {
     "hello": "こんにちは Vue 3 + TypeScript + Vite + i18n!"
-  }
+  },
+  "bananaCounterTitle": "バナナカウンター",
+  "bananaLabel": "バナナ何本？",
+  "bananaInfo": "バナナ {count} 本"
 }

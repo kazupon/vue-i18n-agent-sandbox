@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import Greeting from './components/Greeting.vue' // Import the Greeting component
+import BananaCounter from './components/BananaCounter.vue' // Import the BananaCounter component
 
 // Keep locale for the switcher, remove t as it's handled by Greeting
-const { locale } = useI18n() 
+const { locale } = useI18n()
 </script>
 
 <template>
@@ -14,6 +15,8 @@ const { locale } = useI18n()
     <!-- Removed Vue logo link as the asset was deleted -->
   </div>
   <Greeting /> <!-- Use the Greeting component -->
+  <hr style="margin: 2em 0;" />
+  <BananaCounter /> <!-- Use the BananaCounter component -->
 
   <!-- Language switcher -->
   <form>
@@ -21,6 +24,7 @@ const { locale } = useI18n()
     <select id="locale-select" v-model="locale">
       <option value="en">English</option>
       <option value="ja">日本語</option>
+      <option value="ru">Русский</option> <!-- Add Russian option -->
     </select>
   </form>
 </template>

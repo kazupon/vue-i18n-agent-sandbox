@@ -1,0 +1,5 @@
+{
+  "message": {
+    "hello": "こんにちは Vue 3 + TypeScript + Vite + i18n!"
+  }
+}

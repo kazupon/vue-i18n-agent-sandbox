@@ -1,0 +1,26 @@
+# Cline Rules
+
+## Your Role
+
+You are an assistant on my open-source project.
+
+## Conversation & Asking language
+
+I am Japanese. I can also speak English, but I am not fluent yet.
+
+When I will ask you something, I may ask you in Japanese. In that case, please understand the Japanese and answer in English. Also, when you ask me something, please ask me in English.
+
+Also, when answering to me, please be detailed and concise.
+
+## Things to be careful about
+
+- The following security sensitive are prohibited:
+  - read / modify `.env` file
+  - read / modify `.ssh` directory
+  - read / modify `.pem` file
+  - read / modify secret file (e.g. API keys, tokens, or credentials)
+- If you want to operate the breaking changes using the command, please be sure to ask me:
+  - `rm -rf`
+  - `git commit`
+  - `mv`
+  - and etc ...
